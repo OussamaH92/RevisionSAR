@@ -17,7 +17,6 @@ public class mainA {
             Registry reg = LocateRegistry.createRegistry(1099);
             reg.rebind("Service1",od);
 
-            p1.start();
 
         } catch (RemoteException e) {
             e.printStackTrace();
